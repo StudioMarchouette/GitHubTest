@@ -7,4 +7,8 @@ class App {
         System.out.println("Feature x: do stuff");
         
     }
+
+    private static void featureZ(){
+        System.out.println("Do stuff");
+    }
 }
