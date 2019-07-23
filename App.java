@@ -4,7 +4,7 @@ class App {
     }
 
     public void doStuff(){
-        System.out.println("Feature x: do stuff");
+        System.out.println("Do stuff called by feature Z");
         
     }
 
