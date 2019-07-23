@@ -4,7 +4,7 @@ class App {
     }
 
 
-    public void doStuff(){
+    public static void doStuff(){
         System.out.println("Do stuff called by feature Y or feature Z ");
         
     }
@@ -13,10 +13,6 @@ class App {
         doStuff();
     }
 
-    public static void doStuff(){
-        System.out.println("Do stuff with featureY");
-        
-    }
 
     private static void  featureY(){
         doStuff();
