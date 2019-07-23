@@ -3,8 +3,14 @@ class App {
         System.out.println("App.main");
     }
 
-    public void doStuff(){
-        System.out.println("Feature x: do stuff");
+    public static void doStuff(){
+        System.out.println("Do stuff with featureY");
         
     }
+
+    private static void  featureY(){
+        doStuff();
+
+    }
+
 }
